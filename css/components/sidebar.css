@@ -1,0 +1,29 @@
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-top: 10px ;
+    width: 280px;
+    background-color: var(--black);
+    height: 100vh;
+    border-top: 1px solid var(--white);
+    border-right: 1px solid var(--white);
+
+    :hover{
+        background-color: var(--gray);
+        border-radius: 0px 25px 25px 0px;
+    }
+}
+
+.sidebar_element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--white);
+    height: 48px;
+    width: 280px;
+    padding: 16px 20px;
+    gap:20px; 
+
+    
+}

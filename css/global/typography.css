@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+:root{
+    --font-primary:'Roboto', sans-serif;
+}
+
+#header{
+    font-weight: 700;
+    font-size: 14px;
+    font-family: var(--font-primary);
+}
+
+.side-lg{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: var(--font-primary);
+}
