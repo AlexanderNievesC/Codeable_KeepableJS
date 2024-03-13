@@ -1,5 +1,5 @@
-const Sidebar =(function(){
-    const template=`
+const Sidebar = (function () {
+  const template = `
         <main>
             <div id="sidebar">
                 <div class="sidebar_element side-lg">
@@ -17,7 +17,6 @@ const Sidebar =(function(){
             
             </div>
         </main>
-    `
-    return template
-}
-)();
+    `;
+  return template;
+})();

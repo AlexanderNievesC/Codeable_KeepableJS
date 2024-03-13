@@ -1,2 +1,2 @@
-const App = DOMHANDLER("#root")
-App.load(Layout)
+const App = DOMHANDLER("#root");
+App.load(Layout);

@@ -1,12 +1,17 @@
-const Layout = (function(){
-    const template =`
+const Layout = (function () {
+  const template = `
        ${Header}
-       ${Sidebar}
+       <div id="flex-horizontal">
+        ${Sidebar}
+        ${Card_zone}
+       </div>
        `;
-       return {
-        toString(){
-            return template
-        }
-       } 
-    }
-)();
+  return {
+    toString() {
+      return template;
+    },
+    addListeners() {
+      Card_zone.addListeners();
+    },
+  };
+})();

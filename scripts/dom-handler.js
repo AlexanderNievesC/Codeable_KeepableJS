@@ -1,12 +1,12 @@
-const DOMHANDLER= function(parentSelect){
-    const parent = document.querySelector(parentSelect)
+const DOMHANDLER = function (parentSelect) {
+  const parent = document.querySelector(parentSelect);
 
-    if (!parent) throw new Error("Parent not found")
+  if (!parent) throw new Error("Parent not found");
 
-    return {
-        load(module){
-            parent.innerHTML=module;
-        }
-    }
-}
-
+  return {
+    load(module) {
+      parent.innerHTML = module;
+      module.addListeners();
+    },
+  };
+};
